@@ -1,0 +1,35 @@
+/* Set the font family for the entire document to Arial or sans-serif for better readability */
+body {
+    font-family: Arial, sans-serif;
+    /* Center align the text within the body */
+    text-align: center;
+
+    
+        background-color: #f0f0f0; /* Set the background color of the page */
+    }
+    
+
+/* Style the heading elements (<h1>) to have a color of #333 */
+h1 {
+    color: #000000;
+}
+
+/* Style the input elements to have padding of 5px and a bottom margin of 10px */
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the button elements to have padding of 5px on top and bottom and 10px on left and right, with a background color of #007bff, white text color, no border, and a pointer cursor */
+button {
+    padding: 5px 10px;
+    background-color: #641592;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change the background color of the button elements to #0056b3 when hovered over */
+button:hover {
+    background-color: #0f6b84;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahesha's Guess the Number Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- This line creates a heading element (<h1>) with the text "Tahesha's Guess the Number Game". It serves as the title or heading of the game. -->
+<h1>Tahesha's Guess the Number Game</h1>
+
+<!-- This line creates a paragraph element (<p>) with the text "Enter a number between 1 and 100:". It provides instructions to the player on what they should do. -->
+<p>Enter a number between 1 and 100:</p>
+
+<!-- This line creates an input element (<input>) of type "number" with the id "user-input". It allows the player to enter their guess for the number. -->
+<input type="number" id="user-input">
+
+<!-- This line creates a button element (<button>) with the text "Guess". It triggers the checkGuess() function when clicked, allowing the player to submit their guess. -->
+<button onclick="checkGuess()">Guess</button>
+
+<!-- This line creates another paragraph element (<p>) with the id "message". It serves as a placeholder for displaying messages to the player, such as feedback on their guess or the result of the game. -->
+<p id="message"></p>
+
+<!-- This line includes an external JavaScript file (script.js) in the HTML document. It links the JavaScript code to the HTML file, allowing the browser to execute the game logic defined in the JavaScript file. -->
+<script src="script.js"></script>
+</body>
+</html>
